@@ -311,3 +311,36 @@ color: #63f0fa;
     font-size: 2rem;
     color: var(--second-bg-color);
 }
+.contact h2{
+    margin-bottom: 3rem;
+}
+.contact form{
+    margin: 1rem auto;
+    max-width: 70rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.contact form .input-box{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,.contact form textarea{
+    width: 100%;
+    padding: 1.7rem;
+    margin: .7rem 0;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 1.5rem;
+    resize: none;
+    transition: .5s ease;
+}
+.contact form .input-box input:hover{
+    transform: scale(1.02);
+    box-shadow: 0rem .2rem 1rem hotpink;
+
+}
+.contact form .btn{
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
