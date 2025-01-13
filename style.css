@@ -469,7 +469,7 @@ color: #63f0fa;
    .portfolio-layer h4{
     color: hotpink;
    }
-
+   
    
  }
  @media(max-width:400px){
@@ -493,6 +493,11 @@ color: #63f0fa;
         text-transform: uppercase;
 
     }
+    .footer-icon a{
+        text-align: center;
+        margin-top: 2rem;
+        justify-content: center;
+       }
    
     @media(max-width:300px){
         .service-box{
@@ -501,10 +506,14 @@ color: #63f0fa;
             display: flex;
             flex-direction: column;
         }
-        .contact form{
+        .contact form .input-box input{
             width:100%;
             max-width: 100%;
         }
+        .footer p{
+            text-align: center;
+            margin-top: 2rem;
+           }
        
         
     }
