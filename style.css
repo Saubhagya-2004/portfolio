@@ -454,7 +454,7 @@ color: #63f0fa;
         margin-bottom: 4rem;
     }
     .service-box:hover{
-        margin-top: 5rem;
+        /* margin-top: 5rem; */
     }
    .btn{
     width: 100%;
@@ -464,5 +464,46 @@ color: #63f0fa;
     font-size: 1.5rem;
    }
    
+ }
+ @media(max-width:400px){
+    .service-box{
+        width: 100%;
+        height: 66vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .poortfolio{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .portfolio-layer h4{
+        font-size: 2rem;
+        font-weight: 700;
+        color: hotpink;
+        text-transform: uppercase;
+
+    }
+    @media(max-width:300px){
+        .service-box{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact form{
+            width:100%;
+            max-width: 100%;
+        }
+       
+        
+    }
+   
+    
+    
+   
+
  }
  
