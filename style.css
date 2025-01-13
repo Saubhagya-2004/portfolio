@@ -407,6 +407,9 @@ color: #63f0fa;
         z-index: 1001;
         cursor: pointer;
     }
+  .about-content p{
+    align-items: justify;
+  }
     .navbar{
         position: absolute;
         top: 100%;
@@ -463,6 +466,10 @@ color: #63f0fa;
    .poortfolio h4{
     font-size: 1.5rem;
    }
+   .portfolio-layer h4{
+    color: hotpink;
+   }
+
    
  }
  @media(max-width:400px){
@@ -486,6 +493,7 @@ color: #63f0fa;
         text-transform: uppercase;
 
     }
+   
     @media(max-width:300px){
         .service-box{
             width: 100%;
